@@ -49,3 +49,15 @@ cursor: pointer;
 border-radius: 5px;
 border:1px solid crimson ;
 }
+.midline{ display: inline block;
+text-align: center;
+margin-top: 70px;
+margin-bottom: 25px;
+}
+.all{
+    font-size: 30px;
+}
+.pall{
+    font-style: italic;
+    font-size: small;
+}
