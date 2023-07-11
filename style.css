@@ -130,3 +130,10 @@ background-color: rgb(247, 193, 231);
  .dellpic{
 height: 300px;
  }
+ .size{
+height: 300px;
+padding: 10px;
+ }
+ .picture2{
+    display: flex;
+    justify-content: center;}
