@@ -156,9 +156,6 @@ height: 300px;
 }
 .but2:hover{color: aqua;}
 
-
-
- 
  .size{
 height: 300px;
 padding: 10px;
@@ -166,17 +163,11 @@ padding: 10px;
  .picture2{
     display: flex;
     justify-content: center;
-    
-        
-
 }
     .mainlast{
         padding: 100px;
         
      text-align: center;
-     
-     
-     
      justify-content: center;
      align-items: center;
          }
@@ -195,17 +186,11 @@ padding: 10px;
 .but1:hover{
     color: aqua;
 }
-
-    
     .hlog{
 font-size: xx-large;
-
-
     }
     .lastp{
 font-size: small;
-
-
     }
     .mail{
 height: 30px;
@@ -222,4 +207,10 @@ border: 1px solid black;
         background-position: center;
         background-size: 85%;
       padding: 100px 50px;
+    }
+    .footer{
+background-color: black;
+color: azure;
+padding: 100px;
+text-align: center;
     }
