@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-.bar{
+.navbar{
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -42,9 +42,9 @@ width: 450px;
 padding-top: 25px;
 display: block;
 }
-.h{font-size: xx-large;}
+.mainh{font-size: xx-large;}
 
-.p{font-size: small;}
+.mainp{font-size: small;}
 
 .but{
     padding: 6px;
@@ -55,6 +55,7 @@ color: azure;
 cursor: pointer;
 border-radius: 5px;
 border:1px solid crimson ;
+
 }
 .but:hover{ 
 color: black;
@@ -75,10 +76,10 @@ margin-bottom: 25px;
   .photo{
 display: flex;
 align-items: center;
+padding: 50px;
 justify-content: space-around;
 
 
-padding-top: 25px;
   }
   
 .pp{height: 450px;
@@ -87,14 +88,16 @@ padding-top: 25px;
     gap:20px;
 border-top-left-radius: 300px;
 border-top-right-radius: 300px;
+
+box-shadow: 10px 10px 10px rgb(194, 164, 164);
     } 
 
     .pp1{height: 450px;
         width: 350px;
         background-color: rgb(241, 241, 224);
       
+        box-shadow: 10px 10px 10px rgb(194, 164, 164);
        
-        gap:20px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
         }
@@ -103,7 +106,7 @@ border-top-right-radius: 300px;
             width: 350px;
             background-color: rgb(216, 235, 235);
           
-            gap:20px;
+            box-shadow: 10px 10px 10px rgb(194, 164, 164);
         
         border-top-left-radius: 300px;
         border-top-right-radius: 300px;
@@ -116,8 +119,8 @@ padding: 50px;
  .text{ display: flex;
 align-items: center;
 justify-content: space-around;
-padding: 10px;
-margin: 10px;
+font-size: xx-large;
+
  }
  .dell{
 margin-top: 60px;
@@ -130,10 +133,93 @@ background-color: rgb(247, 193, 231);
  .dellpic{
 height: 300px;
  }
+ .a{
+    height: 200px;
+    width: 500px;
+    color: rgb(11, 12, 12);
+    padding: 36px;
+    margin: 25px;
+    text-align: center;
+    
+    }
+.but2{
+    padding: 6px;
+    width: 100px;
+    height: 35px;
+    background-color:rgb(148, 49, 65);
+    color: azure;
+    cursor: pointer;
+    border-radius: 5px;
+    border:1px solid crimson ;
+    align-items: center;
+
+}
+.but2:hover{color: aqua;}
+
+
+
+ 
  .size{
 height: 300px;
 padding: 10px;
  }
  .picture2{
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+    
+        
+
+}
+    .mainlast{
+        padding: 100px;
+        
+     text-align: center;
+     
+     
+     
+     justify-content: center;
+     align-items: center;
+         }
+
+         .but1{
+            padding: 6px;
+        width: 100px;
+        height: 35px;
+        background-color:darkorchid;
+        color: azure;
+        cursor: pointer;
+        border-radius: 5px;
+        border:1px solid crimson ;
+        align-items: center;
+        }
+.but1:hover{
+    color: aqua;
+}
+
+    
+    .hlog{
+font-size: xx-large;
+
+
+    }
+    .lastp{
+font-size: small;
+
+
+    }
+    .mail{
+height: 30px;
+width: 450px;
+padding: 5px;
+margin: 9px;
+border-radius: 10px;
+border: 1px solid black;
+    }
+    .banner{
+        background-image: url("Flower Asset/Rectangle\ 9.png");
+       
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 85%;
+      padding: 100px 50px;
+    }
