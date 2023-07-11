@@ -31,9 +31,16 @@ color: azure;
 display: flex;
 align-items: center;
 justify-content: space-around;
-padding: 20px;
+
+
 background-color: rgb(243, 215, 236);
 border: 1px solid tomato;
+}
+.aset1{
+height: 500px;
+width: 450px;
+padding-top: 25px;
+display: block;
 }
 .h{font-size: xx-large;}
 
@@ -43,11 +50,15 @@ border: 1px solid tomato;
     padding: 6px;
 width: 100px;
 height: 35px;
-background-color: deeppink;
+background-color:darkorchid;
 color: azure;
 cursor: pointer;
 border-radius: 5px;
 border:1px solid crimson ;
+}
+.but:hover{ 
+color: black;
+
 }
 .midline{ display: inline block;
 text-align: center;
@@ -61,3 +72,5 @@ margin-bottom: 25px;
     font-style: italic;
     font-size: small;
 }
+
+            
